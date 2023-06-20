@@ -19,6 +19,7 @@
 
 npm install express
 server js
+```
 const express = require('express');
 const app = express();
 
@@ -29,7 +30,7 @@ app.get('/', function (req, res){
 app.listen(3000, function () {
     console.log('il server è in ascolto ');
 });
-
+```
 node server.js
 http://localhost:3000/
 
