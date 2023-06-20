@@ -35,6 +35,7 @@ http://localhost:3000/
 
 altro modo di avviare il server:
 
+```
 const http = require ('http');
 
 const server = http.createServer((req, res) => {
@@ -53,7 +54,7 @@ const server = http.createServer((req, res) => {
 server.listen(3000, () => {
     console.log('il server è in ascolto ');
 });
-
+```
 
 npm start (considea l'entry point di default, modificabile dal json di configurazione)
 
