@@ -4,28 +4,18 @@
 - un progetto per la lettura in console di un file di testo,
 - un progetto per la scrittura di un file di testo.
 
+>cos'è Node.js?
+**Node è un framework, simile nelle funzionalità a dotnet core, per quanto riguarda la creazione di web app. Sfrutta JavaScript (linguaggio asincrono) per la programmazione lato server, ed è ritenuto una tecnologia fullstack**
 >cosa sono i moduli?
-**i moduli sono analoghi agli import in c#: nelle esercitazioni sono stati utilizzati i moduli express, http, fs. Sono una tipicità di Node.js.**
+**i moduli sono analoghi agli import in dotnet core: nelle esercitazioni sono stati utilizzati i moduli express, http, fs. Sono una tipicità di Node.js.**
+## elenco dei comandi NODE utilizzati fin'ora (la lista comrpende anche i comandi npm Node package manager):
+- node -v
+- npm update -g
+- npm --version
+- npm init
+>cos'è il file package.json? 
 
-
-moduli? --> node.js import dei moduli?
-
-dotnet core webapp
-
-node.js comandi npm Node package manager
-
-js è asincrono
-
-fullstack
-
-node -v
-
-npm update -g
-
-npm --version
-
-npm init
-package.json (dipendenze)
+(dipendenze)
 
 npm install express
 server js
