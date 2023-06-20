@@ -6,6 +6,7 @@
 
 >cos'è Node.js?
 **Node è un framework, simile nelle funzionalità a dotnet core, per quanto riguarda la creazione di web app. Sfrutta JavaScript (linguaggio asincrono) per la programmazione lato server, ed è ritenuto una tecnologia fullstack**
+
 >cosa sono i moduli?
 **i moduli sono analoghi agli import in dotnet core: nelle esercitazioni sono stati utilizzati i moduli express, http, fs. Sono una tipicità di Node.js.**
 ## elenco dei comandi NODE utilizzati fin'ora (la lista comrpende anche i comandi npm Node package manager):
