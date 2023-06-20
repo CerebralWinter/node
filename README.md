@@ -14,12 +14,13 @@
 - npm update -g
 - npm --version
 - npm init
->cos'è il file package.json? 
+- npm install express
+>cos'è il file package.json?
+**è il file di configurazione, di cui alcune voci viene richiesta la compilazione all'esecuzione del comando node init. Contiene anche le dipendenze, che sono specifiche per ogni progetto. In quanto file .json permette di modificare i campi dall'editor di testo, che verranno aggiornati alla compilazione.**
 
-(dipendenze)
 
-npm install express
-server js
+>cos'è un server js?
+**viene avviato così:**
 ```javascript
 const express = require('express');
 const app = express();
@@ -35,7 +36,7 @@ app.listen(3000, function () {
 node server.js
 http://localhost:3000/
 
-altro modo di avviare il server:
+**altro modo di avviare il server:**
 
 ```javascript
 const http = require ('http');
