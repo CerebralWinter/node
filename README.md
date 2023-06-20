@@ -19,7 +19,7 @@
 
 npm install express
 server js
-```
+```javascript
 const express = require('express');
 const app = express();
 
@@ -36,7 +36,7 @@ http://localhost:3000/
 
 altro modo di avviare il server:
 
-```
+```javascript
 const http = require ('http');
 
 const server = http.createServer((req, res) => {
