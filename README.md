@@ -1,5 +1,10 @@
-nelle sottocartelle sono presenti:
-l'inizializzazione tramite express, una inizializzazione alternativa, un progetto per la lettura in console di un file di testo e un progetto per la scrittura di un file di testo.
+# nelle sottocartelle sono presenti:
+- l'inizializzazione tramite express,
+- una inizializzazione alternativa,
+- un progetto per la lettura in console di un file di testo,
+- un progetto per la scrittura di un file di testo.
+
+>cosa sono i moduli?
 
 
 moduli? --> node.js import dei moduli?
