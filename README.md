@@ -5,7 +5,6 @@
 - un progetto per la scrittura di un file di testo.
 
 >cosa sono i moduli?
-
 **i moduli sono analoghi agli import in c#: nelle esercitazioni sono stati utilizzati i moduli express, http, fs**
 
 
