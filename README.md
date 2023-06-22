@@ -1,9 +1,21 @@
 # nelle sottocartelle sono presenti:
 - l'inizializzazione tramite express,
+```javascript
+const express = require('express');
+const app = express();
+
+app.get('/', function (req, res){
+    res.send('ciao');
+});
+
+app.listen(3000, function () {
+    console.log('il server è in ascolto sulla porta 3000 ');
+});
+```
 - una inizializzazione alternativa,
 - un progetto per la lettura in console di un file di testo,
 - un progetto per la scrittura di un file di testo.
-
+lez10
 >cos'è Node.js?
 **Node è un framework, simile nelle funzionalità a dotnet core, per quanto riguarda la creazione di web app. Sfrutta JavaScript (linguaggio asincrono) per la programmazione lato server, ed è ritenuto una tecnologia fullstack**
 
@@ -13,7 +25,7 @@
 - node -v
 - npm update -g
 - npm --version
-- npm init
+- npm init -y
 - npm install express
 >cos'è il file package.json?
 **è il file di configurazione, di cui alcune voci viene richiesta la compilazione all'esecuzione del comando node init. Contiene anche le dipendenze, che sono specifiche per ogni progetto. In quanto file .json permette di modificare i campi dall'editor di testo, che verranno aggiornati alla compilazione.**
@@ -75,6 +87,14 @@ ajax è un modulo?
 moduli per dare funzionalità a node
 
 angular e vue creazione interfacce utente
+
+lez11
+aggiungere la cartella node_modules a gitignore
+gestione delle rotte con node.js
+
+typescript
+
+express routing delle richieste http
 
 
 
